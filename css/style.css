@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lavender;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo{
+    height: 100px;
+    border-radius: 10px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+  color:black;
+  background-color: white;
+}
+.introduction {
+    background: url(/Images/artimg-2.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: #1a1a1a;
+}
+.intro{
+    padding-top: 3%;
+    /* padding-left: 58%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    color: white;
+    margin-right: 10%;
+    /* padding: 10%; */
+    font-size: 2.1rem;
+    font-family: cursive;
+    word-spacing: 10px;
+    
+}
+.intro {
+    word-spacing: 10px;
+}
+.intro strong{
+    color: chartreuse;
+    word-spacing: 10px;
+}
+.slogan{
+    padding-top: 3%;
+    /* padding-left: 58%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    color: white;
+    margin-right: 10%;
+    /* padding: 10%; */
+    font-size: 2.1rem;
+    font-family: cursive;
+    word-spacing: 10px;
+    color: darkmagenta;
+    text-decoration: cyan;
+}
+#Sec{
+    background-color: lavender;
+}
+.second{
+    display: flex;
+}
+#discription{
+    padding: 110px 53px;
+    font-family: 'Anton', sans-serif;
+}
+.second img {
+    border-radius: 100px;
+    padding: 65px 11px;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.box h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.box p{
+    padding: 10px;
+}
+.box button {
+    padding: 10px;
+    display: inherit;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background-color: #9a70ae;
+    border-radius: 10px;
+}
+.box button:hover {
+    color: white;
+    background-color: rgb(36, 3, 63);
+}
+.youtuberef {
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 1.3rem;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    position: sticky;
+}
+.center {
+    text-align: center;
+    /* height: 50px; */
+    padding: 20px;
+}
